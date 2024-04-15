@@ -10,8 +10,8 @@ class MeetingPrepAgents():
             tools=ExaSearchToolset.tools(),
             backstory= dedent("""\
                 As a Research Specialist, your mission is to uncover detailed information
-                              about the individuals and entities participating in the meeting. Your insights
-                              will lay the groundwork for strategic meeting preparation. """),
+                about the individuals and entities participating in the meeting. Your insights
+                will lay the groundwork for strategic meeting preparation. """),
             verbose=True
         )
     
@@ -22,8 +22,8 @@ class MeetingPrepAgents():
             tools=ExaSearchToolset.tools(),
             backstory= dedent("""\
                 As a Industry Analyst, your analysis will identify key trends,
-                              challenges facing the industry, and potential opportunities that
-                              could be leveraged during the meeting for strategic advantage. """),
+                challenges facing the industry, and potential opportunities that
+                could be leveraged during the meeting for strategic advantage. """),
             verbose=True
         )
     
